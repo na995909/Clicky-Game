@@ -18,4 +18,4 @@ In this assignment, i've  created a memory game with React. In this assignment i
 - - -
 
 All steps taken to create this app based on the instructions from https://github.com/facebookincubator/create-react-app.
-link to se th app:  https://na995909.github.io/Clicky-Game/
+link to se the app:  https://na995909.github.io/Clicky-Game/
