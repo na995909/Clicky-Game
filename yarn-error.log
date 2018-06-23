@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/Cellar/node/9.4.0/bin/node /usr/local/bin/yarn add gh-pages
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://na995909.github.io/Clicky-Game/: Invalid tar header. Maybe the tar is corrupted or it needs to be gunzipped?
+      at Object.module.exports.exports.decode (/usr/local/lib/node_modules/yarn/lib/cli.js:77578:43)
+      at Extract.onheader (/usr/local/lib/node_modules/yarn/lib/cli.js:146111:39)
+      at Extract.module.exports.Extract._write (/usr/local/lib/node_modules/yarn/lib/cli.js:146237:8)
+      at doWrite (/usr/local/lib/node_modules/yarn/lib/cli.js:73566:64)
+      at writeOrBuffer (/usr/local/lib/node_modules/yarn/lib/cli.js:73555:5)
+      at Extract.module.exports.Writable.write (/usr/local/lib/node_modules/yarn/lib/cli.js:73492:11)
+      at Duplexify.ondata (/usr/local/lib/node_modules/yarn/lib/cli.js:72640:20)
+      at Duplexify.emit (events.js:160:13)
+      at readableAddChunk (/usr/local/lib/node_modules/yarn/lib/cli.js:72311:18)
+      at Duplexify.module.exports.Readable.push (/usr/local/lib/node_modules/yarn/lib/cli.js:72270:10)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "gh-pages": "^1.2.0",
+      "homepage": "https://na995909.github.io/Clicky-Game/",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-scripts": "1.1.4",
+      "reshake": "^1.0.8"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build" 
+    }
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
